@@ -10,7 +10,7 @@ export function Contact() {
         transition={{ duration: 0.5 }}
         className="my-10 text-center text-4xl"
       >
-        Get in Touch
+        Entre em contato
       </motion.h2>
 
       <div className="text-center tracking-tighter">

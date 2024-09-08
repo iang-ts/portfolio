@@ -10,7 +10,7 @@ export function Experience() {
         transition={{ duration: 1.5 }}
         className="my-20 text-center text-4xl"
       >
-        Experience
+        Experiência
       </motion.h2>
 
       <div>
@@ -37,9 +37,11 @@ export function Experience() {
 
               <p className="mb-4 text-neutral-400">{experience.description}</p>
               {experience.technologies.map((tech, index) => (
-                <span key={index} className="mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800">
-                  • {tech}
-                </span>
+                <div className="mb-2" key={index}>
+                  <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800">
+                    • {tech}
+                  </span>
+                </div>
               ))}
             </motion.div>
           </div>
